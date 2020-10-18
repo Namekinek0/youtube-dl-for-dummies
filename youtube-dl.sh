@@ -10,15 +10,15 @@ then
 	echo "It seems that you don't have youtube-dl inside this folder"
 	echo 
 	echo "Youtube-dl is the program that actually download videos"
-	echo "this one is only a script to use it"
+	echo "this is only a script to use it"
 	echo "Do you want to download youtube-dl? (y/n)"
 	read varyoutubedl
 	echo 
 	if [ $varyoutubedl = y ] || [ $varyoutubedl = Y ]
 	then
-		echo "Go to the following page, download youtube-dl.exe and put it in the same folder of this file"
+		echo "A web page will open, download youtube-dl.exe and put it in the same folder of this file"
 		echo "https://youtube-dl.org/latest"
-		echo "Once you finished, press the Enter button to close this program, and relaunch it again"
+		echo "Once you finished, press the Enter button to close this script, and relaunch start-youtube-dl"
 		read 
 		exit
 	elif [ $varyoutubedl = n ] || [ $varyoutubedl = N ]
