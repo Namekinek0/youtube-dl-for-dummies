@@ -12,7 +12,7 @@ if exist "C:\msys64\msys2.exe" (
 set /P _downloadmsys= It seems you don't have Msys2. Do you want to download it? (y/n)
 if "%_downloadmsys%"=="y" (
 	echo A web page will open. Simply install the program in the default directory.
-	echo Once you finished, reopen this file.
+	echo Once you finished, reopen this script.
 	pause
 	start "" https://www.msys2.org/#installation
 	exit
