@@ -1,5 +1,5 @@
 # youtube-dl-for-dummies
-YDFD is a group of two scripts written in batch and bash in order to use youtube-dl without opening a cmd or a powershell window and to update it every time you use it.
+ydfd is a group of two scripts written in batch and bash in order to use youtube-dl without opening a cmd or a powershell window and to update it every time you use it.
    
 # Requirements   
 - First of all, you must disable Defender Smartscreen and, if any, the other useless protections in order to run batch files.   
