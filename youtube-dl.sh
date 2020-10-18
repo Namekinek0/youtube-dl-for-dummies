@@ -42,7 +42,7 @@ fi
 echo
 echo "Copy and paste a link now"
 echo "If possible, use the right click of the mouse and 'Paste,' otherwise you could screw the script"
-echo "Be careful of the link being correct, otherwise script won't work"
+echo "Be careful of the link being correct, otherwise the script won't work"
 read varlink
 echo
 echo "Do you want to use options? if yes, type them now, if not simply press Enter button"
